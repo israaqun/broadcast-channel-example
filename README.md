@@ -1,18 +1,20 @@
-# Broadcast Channel Example
+# Math Challenge
 
-## Introduction
+## Summary
 
-The Broadcast Channel Example is a simple web application that showcases the use of the Broadcast Channel API in JavaScript. This API enables communication between different browser tabs or windows with the same channel name. 
+
+Math Challenge is a simple web-based math game that tests your math skills by presenting equations for you to solve. The game also features a leaderboard to keep track of high scores.
 
 ## Features
 
-Send and receive messages between different browser tabs or windows.
-Simple user interface for triggering and observing messages.
+- Random math equations to solve.
+- Score tracking.
+- Leaderboard to see how you compare to other players.
 
 
-## How It Works
+## Technologies Used
 
-The Broadcast Channel API allows communication between browser contexts (tabs or windows) with the same channel name.
-When a user signs in or signs out, the updateAuthState function is called to set or remove the 'userAuthenticated' item in localStorage, simulating the user's authentication status.
-The authChannel is responsible for sending and receiving messages to and from other tabs.
-The code listens for messages on the authChannel and updates the content displayed in real-time based on the received messages.
+- HTML
+- CSS
+- JavaScript
+- Bootstrap (for styling)
